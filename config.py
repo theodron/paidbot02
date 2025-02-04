@@ -10,22 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8162962090:AAHUC-g0vNl5ZZsSbzHK-Pp8kZmdlIbjht0")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
-
-#Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28450765"))
+APP_ID = int(os.environ.get("APP_ID", "21505404"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "36f00f11f9d5c65e69b81fd804453a93")
+API_HASH = os.environ.get("API_HASH", "5feffdf4111ed339381056d9476d3fcd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002073793218"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002259290366"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7533047591"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7804819854"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -35,8 +32,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileSout:FileSout@cluster
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002353751655"))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002444472864"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001559864888"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002123319028"))
 FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0")) #don't remove 0 from here 😐
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0")) #don't remove 0 from here 😐
 
@@ -44,7 +41,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0")) #don't rem
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #pic
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/d4464dd878b7a84edccb5.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/wp5tre.jpg")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
