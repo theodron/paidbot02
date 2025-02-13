@@ -44,7 +44,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/s/zpxvZVz6OCXE1kswtoM8tw/E3b.jpg")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am file share bot by @Theodron. Send me any file and I'll give you a link and with that link anyone can access your file")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n<b>I am file share bot by @Theodron. Send me any file and I'll give you a link and with that link anyone can access your file 🗃️</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6875294439, 7780844976").split()):
