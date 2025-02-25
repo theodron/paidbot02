@@ -47,7 +47,7 @@ START_PIC = os.environ.get("START_PIC", "https://envs.sh/s/zpxvZVz6OCXE1kswtoM8t
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n<b>I am file share bot by @Theodron. Send me any file and I'll give you a link and with that link anyone can access your file 🗃️</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6875294439 7780844976").split()):
+    for x in (os.environ.get("ADMINS", "6875294439 7780844976 7552265941 7125044469 6920944181 7565922393").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
