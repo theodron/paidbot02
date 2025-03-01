@@ -137,10 +137,12 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
     
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-buttons = [
+    buttons = [
         [
+
             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink2),
+
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink2),
         ]
      ]
     try:
