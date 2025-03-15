@@ -25,11 +25,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002500369803"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6061153252"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "7070")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://flameogg:flameogg@cluster0.8k1xt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://paidtron:paidtron@fl4me.ucvbg.mongodb.net/?retryWrites=true&w=majority&appName=Fl4me")
+DB_NAME = os.environ.get("DATABASE_NAME", "Tharakbot1")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001559864888"))
