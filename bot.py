@@ -116,3 +116,5 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         self.LOGGER(__name__).info("Bot stopped.")
+invite_link = bot.exportChatInviteLink(chat_id="-100252317432")
+print(invite_link)
